@@ -1,0 +1,263 @@
+/*
+* @Author: tangwm
+* @Date:   2017-04-21 15:00:29
+* @Last Modified by:   tangwm
+* @Last Modified time: 2017-04-22 14:27:00
+*/
+
+/* 公共样式 */
+ 
+ #safe i{
+	color: #fff;
+    font-style: italic;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #349fe7;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+#safe b{
+	color: #333;
+    font-size: 16px;
+	font-weight: 700;
+}
+#safe  dt {
+	margin-bottom: 20px ;
+	color: #349fe7;
+    font-size: 18px;
+}
+ul{
+	list-style: none;
+}
+
+#safe  h4{
+	color: #f34f54;
+    font-size: 20px;
+    font-weight:bold;
+    border-bottom: 1px #d3d3d3 solid;
+    width: 350px;
+    margin: 50px auto; 
+    text-align: center; 
+
+  } 
+
+
+/* box1*/
+
+ #safe > .box1 > .container {
+	background: url("../img/safe2.jpg") no-repeat right center;
+}
+#safe > .box1 {
+	margin: 40px 0 40px 0;
+}
+
+
+
+#safe > .box1 > .container dl dd {
+	color: #666;
+    line-height: 28px;
+    font-size: 14px;
+    height: 235;
+}
+#safe > .box1 > .container dl  {
+	margin-top: 45px ;
+}
+
+/* box2*/
+#safe > .box2  {
+	background: #fafafa; 
+}
+#safe > .box2 ul {
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:flex;
+    display:-ms-flexbox;
+    padding:40px 0 10px 0;
+}
+#safe > .box2 ul li {
+	flex-direction: row; 	
+}
+#safe > .box2 ul li:nth-child(2) {
+	padding: 90px;
+}
+#safe > .box2 >.container> ul > li >dl dd span{
+	color: #f34f54;
+}
+
+/* box3*/
+#safe > .box3 > .container {
+	background: url("../img/safe4.jpg") no-repeat right center;
+	height: 235;
+}
+#safe > .box3 > .container dl  {
+	margin-top: 45px ;
+}
+#safe > .box3 {
+	margin: 40px 0 40px 0;
+}
+#safe > .box3 > .container dl dd {
+	color: #666;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+/* box4*/
+#safe > .box4  {
+	background: #fafafa; 
+}
+#safe > .box4 ul {
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:flex;
+    display:-ms-flexbox;
+    padding:40px 0 0 0;
+}
+#safe > .box4 ul li {
+	flex-direction: row; 	
+}
+#safe > .box4 ul li:nth-child(2) {
+	padding: 80px;
+}
+#safe > .box4 >.container dl dd span{
+	color: #f34f54;
+}
+
+/* box5*/
+#safe > .box5 > .container {
+	background: url("../img/safe6.jpg") no-repeat right center;
+	height: 235px;
+}
+#safe > .box5 > .container dl  {
+	margin-top: 45px ;
+}
+#safe > .box5 {
+	margin: 40px 0 40px 0;
+}
+#safe > .box5 > .container dl dd {
+	color: #666;
+    line-height: 28px;
+    font-size: 14px;
+}
+#safe > .box5 > .container dl dd span {
+	color: #f34f54;
+}
+
+/* box6*/
+#safe > .box6  {
+	background: #fafafa; 
+}
+#safe > .box6 ul {
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:flex;
+    display:-ms-flexbox;
+    padding:40px 0 0 0;
+}
+#safe > .box6 ul li {
+	flex-direction: row; 	
+}
+#safe > .box6 ul li:nth-child(2) {
+	padding: 80px;
+}
+#safe > .box6 >.container dl dd span{
+	color: #f34f54;
+}
+
+/* box7*/
+#safe > .box7 > .container {
+	background: url("../img/safe8.jpg") no-repeat right center;
+	height: 235px;
+}
+
+#safe > .box7 {
+	margin: 40px 0 40px 0;
+}
+#safe > .box7 > .container dl  {
+	margin-top: 45px ;
+}
+#safe > .box7 > .container dl dd {
+	color: #666;
+    line-height: 28px;
+    font-size: 14px;
+}
+#safe > .box7 > .container dl dd span {
+	color: #f34f54;
+}
+
+/* box8*/
+#safe > .box8  {
+	background: #fafafa; 
+}
+#safe > .box8 ul {
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:flex;
+    display:-ms-flexbox;
+    padding:40px 0 0 0;
+}
+#safe > .box8 ul li {
+	flex-direction: row; 	
+}
+#safe > .box8 ul li:nth-child(2) {
+	padding: 80px;
+}
+#safe > .box8 >.container dl dd span{
+	color: #f34f54;
+}
+
+/* box9*/
+
+#safe > .box9 >.container span{
+	color: #333;
+    font-size: 16px;
+    position: relative;
+    left: 506px;
+    top:-40px;
+}
+#safe > .box9  h5{
+	color: #333;
+    font-size: 16px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+#safe > .box9  p{
+	color: #666;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+/* box10*/
+#safe > .box10 >.container span{
+	color: #333;
+    font-size: 16px;
+    position: relative;
+    left: 506px;
+    top:-40px;
+}
+
+#safe > .box10 >.container ul {
+	display:-webkit-flex;
+    display:-moz-flex;
+    display:flex;
+    display:-ms-flexbox;
+}
+#safe > .box10 >.container ul li{
+	
+	flex-wrap:wrap;
+	width: 700px;
+}
+
+/* box11*/
+#safe > .box11{
+	background: #fafafa; 
+}
+#safe > .box11 p{
+	color: #666;
+    font-size: 14px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
