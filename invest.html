@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="iceStone <ice@wedn.net>">
+  <title>微金所-安全的互联网微金融资产交易平台</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+ <!-- 头部区域 -->
+   <header>
+    <!-- 通栏菜单 -->
+    <div class="topbar hidden-sm hidden-xs">
+      <div class="container">
+        <div class="row">
+          <div class="tb-1 col-md-2">
+            <a href="#" class="text-muted">
+              <i class="icon-mobilephone"></i>
+              <span>手机微金所</span>
+              <i class="glyphicon glyphicon-chevron-down"></i>
+              <img src="img/c_06.jpg" alt="扫一扫">
+            </a>
+          </div>
+          <div class="tb-2 col-md-5 text-center text-muted">
+            <i class="icon-telephone"></i><span>4006-89-4006（服务时间：9:00-21:00）</span>
+          </div>
+          <div class="tb-3 col-md-2 text-center">
+            <a href="#" class="text-muted">常见问题</a>
+            <a href="#" class="text-muted">财富登录</a>
+          </div>
+          <div class="tb-4 col-md-3 text-center">
+            <a href="#" class="btn btn-register btn-sm">免费注册</a>
+            <a href="#" class="text-muted" data-toggle="modal" data-target=".modal">登录</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /通栏菜单 -->
+    <!-- 导航菜单 -->
+    <nav class="navbar navbar-itcast" data-spy="affix" data-offset-top="200" data-offset-bottom="1000">
+      <div class="container">
+        <div class="navbar-header">
+        <!-- 自适应汉堡菜单 -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav_menu" aria-expanded="false">
+            <span class="sr-only">切换菜单显示</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <i class="icon-icon"></i><i class="icon-logo"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="nav_menu">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="demo.html">我要投资 <span class="sr-only"></span></a></li>
+            <li><a href="equity.html">股权质押</a></li>
+            <li><a href="safe.html">安全保障</a></li>
+            <li><a href="Newbiezone.html">新手专区</a></li>
+            <li><a href="#">最新动态</a></li>
+            <li><a href="#">关于我们</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right hidden-sm ">
+            <li><a href="#">个人中心</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- /导航菜单 -->
+  </header>
+ <!-- 头部区域 -->
+
+  <!-- 登录对话框 -->
+  <div class="modal fade">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">欢迎登录微金所</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label">登录名</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">登录密码</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Remember me
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">登录</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /登录对话框 -->
+
+<!--  投资页面 -->
+  <section id="tzym">
+    <div class="container">
+      <div class="tzym-top">
+          <div class="tzym-top-tab clearfix">
+            <input type="text" value="输入关键字查询">
+            <a href=""><span>收益计算器</span> </a>
+            <a href=""><span>预约投标</span></a>
+          </div>
+          <div class="tzym-top-content clearfix">
+            <div class="tzym-top-content-left ">
+              <div class="cpqx clearfix">
+                <ul>
+                  <li>产品期限：</li>
+                  <li class="qb">全部</li>
+                  <li><a href="javascript:;">1-3个月</a></li>
+                  <li><a href="javascript:;">4-9个月</a></li>
+                  <li><a href="javascript:;">10个月以上</a></li>
+                </ul>
+              </div>
+              <div class="cpsy clearfix">
+                <ul>
+                  <li>产品收益：</li>
+                  <li class="qb">全部</li>
+                  <li><a href="javascript:;">9%以下</a></li>
+                  <li><a href="javascript:;">9%-12%</a></li>
+                  <li><a href="javascript:;">12%-22%</a></li>
+                  <li><a href="javascript:;">22%-32%</a></li>
+                  <li><a href="javascript:;">32%以上</a></li>
+                </ul>             
+              </div>
+              <div class="cplx clearfix">
+                <ul>
+                  <li>产品类型：</li>
+                  <li class="qb">全部</li>
+                  <li><a href="javascript:;">月月盈</a></li>
+                  <li><a href="javascript:;">微转让</a></li>
+                  <li><a href="javascript:;">微转让</a></li>
+                  <li><a href="javascript:;">微转让</a></li>
+                  <li><a href="javascript:;">微转让</a></li>
+                  <li><a href="javascript:;">微转让</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="tzym-top-content-right"><img src="img/tzym.jpg"alt="">
+            </div> 
+          </div>   
+      </div>
+      <div class="tzym-bottom">
+        <div class="tzym-bottom-mian">
+          <div class="tzym-bottom-mian-one clearfix">
+            <ul>
+              <li>排列方式：</li>
+              <li><a href="#">默认排序</a></li>
+              <li><a href="#">年化利率</a></li>
+              <li><a href="#">投资期限</a></li>
+              <li><a href="#">产品类型</a></li>
+              <li><a href="#">产品星级</a></li>
+            </ul>
+          </div>
+          <div class="tzym-bottom-mian-two  clearfix">
+            <div class="title">
+                  <a href="#">海航金宝567期</a>
+                  <span>航</span>
+                  <span>机</span>     
+            </div>
+            <div class="content">
+              <ul>
+                  <li>
+                    <span>6.5<sub>%</sub></span> 
+                    <p>测算话年收入率</p>
+                  </li>
+                  <li>
+                    <p>借款期限：<span><b>3</b>个月</span></p>
+                    <p>还款方式：<span>利随本清</span></p>
+                  </li>
+                  <li>
+                    <p>筹集金额：<span>50万元</span></p>
+                    <p>产品星级：<span>★★★★</span>★</p>
+                  </li>
+                  <li>
+                    <p>投资进度：<span>0%</span></p>
+                    <p>产品星级：<span>★★★★</span>★</p>
+                  </li>
+                  <li>
+                    <span>立即加入</span>
+                  </li>
+              </ul>
+            </div>
+          </div>
+          <div class="tzym-bottom-mian-three  clearfix">
+             <div class="title">
+                  <a href="#">微金宝1234期</a>
+                  <span>福</span>
+                  <span>建</span>     
+             </div>
+             <div class="content">
+              <ul>
+                  <li>
+                    <span>12<sub>%</sub></span> 
+                    <p>测算话年收入率</p>
+                  </li>
+                  <li>
+                    <p>借款期限：<span><b>6</b>个月</span></p>
+                    <p>还款方式：<span>利随本清</span></p>
+                  </li>
+                  <li>
+                    <p>筹集金额：<span>100万元</span></p>
+                    <p>产品星级：<span>★★★</span>★★</p>
+                  </li>
+                  <li>
+                    <p>投资进度：<span>12%</span></p>
+                    <p>产品星级：<span>★★</span>★★★</p>
+                  </li>
+                  <li>
+                    <span>立即加入</span>
+                  </li>
+              </ul>
+            </div>
+          </div>
+          <div class="tzym-bottom-mian-four  clearfix">
+             <div class="title">
+                  <a href="#">车帮助帮助帮助</a>
+                  <span>飞</span>
+                  <span>机</span>     
+             </div>
+             <div class="content">
+               <ul>
+                  <li>
+                    <span>7.3<sub>%</sub></span> 
+                    <p>测算年化收益率</p>
+                  </li>
+                  <li>
+                    <p>借款期限：<span><b>4</b>个月</span></p>
+                    <p>还款方式：<span>利随本清</span></p>
+                  </li>
+                  <li>
+                    <p>筹集金额：<span>20万元</span></p>
+                    <p>产品星级：<span>★</span>★★★★</p>
+                  </li>
+                  <li>
+                    <p>投资进度：<span>4%</span></p>
+                    <p>产品星级：<span>★★</span>★★★</p>
+                  </li>
+                  <li>
+                    <span>立即加入</span>
+                  </li>
+               </ul>
+             </div>
+          </div>
+          <div class="tzym-bottom-mian-five  clearfix">
+            <div class="title">
+                  <a href="#">微周转第六十三期</a>
+                  <span>京</span>
+                  <span>保</span>     
+             </div>
+             <div class="content">
+               <ul>
+                  <li>
+                    <span>9.8<sub>%</sub></span> 
+                    <p>测算年化收益率</p>
+                  </li>
+                  <li>
+                    <p>借款期限：<span><b>5</b>个月</span></p>
+                    <p>还款方式：<span>利随本清</span></p>
+                  </li>
+                  <li>
+                    <p>筹集金额：<span>20.9万元</span></p>
+                    <p>产品星级：<span>★★★</span>★★</p>
+                  </li>
+                  <li>
+                    <p>投资进度：<span>9%</span></p>
+                    <p>产品星级：<span>★★</span>★★★</p>
+                  </li>
+                  <li>
+                    <span>立即加入</span>
+                  </li>
+               </ul>
+             </div>
+          </div>
+          <div class="tzym-bottom-mian-six ">
+            <div class="page">
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+              </ul>
+            </div>
+          </div>
+         
+        </div>     
+      </div>
+    </div>
+ 
+  </section>>
+     
+    
+ 
+   
+
+<!--  投资页面 -->
+
+ <!-- 脚注区域--合作伙伴 -->
+  <section id="partner" class="hidden-xs">
+    <div class="container">
+      <h3 class="text-center">合作伙伴</h3>
+      <div class="text-center">
+        <ul class="partner-list">
+          <li>
+            <a class="icon-uniE930" href="http://www.chinapay.com/" target="_blank"></a>
+          </li>
+          <li>
+            <a class="icon-uniE92F" href="http://www.chinapay.com/" target="_blank"></a>
+          </li>
+          <li>
+            <a class="icon-uniE92E" href="http://www.chinapay.com/" target="_blank"></a>
+          </li>
+          <li>
+            <a class="icon-uniE92A" href="http://www.chinapay.com/" target="_blank"></a>
+          </li>
+          <li>
+            <a class="icon-uniE929" href="http://www.chinapay.com/" target="_blank"></a>
+          </li>
+          <li>
+            <a class="icon-uniE931" href="http://www.chinapay.com/" target="_blank"></a>
+          </li>
+          <li>
+            <a class="icon-uniE92C" href="http://www.chinapay.com/" target="_blank"></a>
+          </li>
+          <li>
+            <a class="icon-uniE92B" href="http://www.chinapay.com/" target="_blank"></a>
+          </li>
+          <li>
+            <a class="icon-uniE92D" href="http://www.chinapay.com/" target="_blank"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+ <!-- 脚注区域--合作伙伴 -->
+
+
+  <script src="lib/jquery/jquery.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,12 +1,16 @@
 /*
 * @Author: tangwm
 * @Date:   2017-04-21 15:00:29
-* @Last Modified by:   tangwm
-* @Last Modified time: 2017-04-22 14:27:00
+* @Last Modified by:   huangxz
+* @Last Modified time: 2017-04-27 17:10:54
 */
 
 /* 公共样式 */
- 
+#safe > img{
+ width: 100%;
+ border: none;
+ outline: none;
+}
  #safe i{
 	color: #fff;
     font-style: italic;

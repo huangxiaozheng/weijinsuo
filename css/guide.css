@@ -1,14 +1,19 @@
 /*
 * @Author: tangwm
 * @Date:   2017-04-22 15:54:09
-* @Last Modified by:   tangwm
-* @Last Modified time: 2017-04-24 23:14:17
+* @Last Modified by:   huangxz
+* @Last Modified time: 2017-04-27 17:02:21
 */
 
 
 /* 公共样式 */
 #guide{
     background-color:#f3f3f3;
+  }
+#guide >  img{
+ width: 100%;
+ border: none;
+ outline: none;
 }
 #guide ul{
    list-style: none;
@@ -76,6 +81,7 @@
   display: block;
   border-left: 3px #dd2c37 solid;
   border-right: none;
+  display: block;
 }
 
 #guide > .container >.left ul li{
@@ -90,6 +96,7 @@
    float: right;
    width: 967px;
    background-color: #ffffff;
+   
 }
 
 /* 操作指南 */
@@ -159,20 +166,19 @@
 
 
 /* 新手指引 */
+
+
+
+
+
+
+
+
+
+
 /* VIP投资人 */
 /* 常见问题 */
 /* 名词解释 */
 /* 产品介绍 */
 /* 存管指引 */
 
-.clearfix:after{
-    content: "";
-    display: block;
-    clear: both;
-    height: 0;
-    line-height: 0;
-    visibility: hidden;
- }
- .clearfix{
-  zoom: 1; 
- }

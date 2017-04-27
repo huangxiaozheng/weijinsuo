@@ -1,0 +1,138 @@
+/*
+* @Author: huangxz
+* @Date:   2017-04-26 21:45:17
+* @Last Modified by:   huangxz
+* @Last Modified time: 2017-04-27 17:20:16
+*/
+
+#guide > .container >.right > .greenhand >.box1 img{
+	float: left;
+	height: 250px;
+    width: 210px;
+    margin: 27px;
+}
+#guide > .container >.right > .greenhand >.box1 dl{
+	float: right;
+    padding: 40px 95px 0 0;
+}
+
+#guide > .container >.right > .greenhand >.box1 dl dt h3{
+	color: #ff9201;
+	font-size: 20px;
+    margin-left: 14px;
+}
+#guide > .container >.right > .greenhand >.box1 dl dd{
+	font-size: 14px;
+    line-height: 28px;
+    border-bottom: 1px #ccc dashed;
+    margin: 0;
+    padding: 8px 15px;
+    letter-spacing: 2px;
+}
+#guide > .container >.right > .greenhand >.box2 {
+	padding: 0 30px 15px 30px;
+}
+
+#guide > .container >.right > .greenhand >.box2 h2{
+    padding: 35px 0 5px 0;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+
+#guide > .container >.right > .greenhand >.box2 h2 i {
+	display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #dd2c37;
+    line-height: 8px;
+    margin-right: 10px;
+}
+#guide > .container >.right > .greenhand >.box2 p span{
+	color: #f00;
+  
+}
+#guide > .container >.right > .greenhand >.box2 .difference{
+	color: #ff9201;
+  
+}
+#guide > .container >.right > .greenhand >.box2 .example{
+	padding-top: 10px;
+  
+}
+
+#guide > .container >.right > .greenhand >.box2 p{
+	line-height: 32px;
+	margin: 0;
+}
+
+#guide > .container >.right > .greenhand >.box2 .law{
+	font-size: 14px;
+    color: #666;
+} 
+#guide > .container >.right > .greenhand >.box2 table{
+	width: 100%;
+    border: 1px #c6cbcf solid;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+#guide > .container >.right > .greenhand >.box2 table tr:nth-child(odd){
+	background: #f2f2f2;
+}
+#guide > .container >.right > .greenhand >.box2 table tr:nth-child(even){
+	background: #fdfdfd;
+}
+
+#guide > .container >.right > .greenhand >.box2 table td{
+	border-right: 1px #e0e3e5 solid;
+    padding: 13px 10px;
+    color: #666;
+    line-height: 26px;
+}
+#guide > .container >.right > .greenhand >.box2 table td i{
+	padding-left: 80px;
+	font-size: 22px;
+}
+#guide > .container >.right > .greenhand >.box2 table tr th{
+	border-right: 1px #e0e3e5 solid;
+    padding: 13px 10px;
+    color: #666;
+    line-height: 26px;
+    text-align: center;
+}
+
+#guide > .container >.right > .greenhand >.box2 table tr i{
+	color: #e92322;
+	font-weight:bold;
+}
+#guide > .container >.right > .greenhand >.box2 table .correct{
+	color: #333333;
+}
+#guide > .container >.right > .greenhand >.box2 p:last-child{
+	text-align: center;
+	margin: 40px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 清除浮动 */
+ .clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+ }
+ .clearfix{
+  zoom: 1; 
+ }
