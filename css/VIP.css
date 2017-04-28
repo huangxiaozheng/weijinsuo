@@ -1,28 +1,43 @@
 /*
 * @Author: huangxz
 * @Date:   2017-04-27 17:22:13
-* @Last Modified by:   huangxz
-* @Last Modified time: 2017-04-27 21:41:24
+* @Last Modified by:   tangwm
+* @Last Modified time: 2017-04-28 15:21:11
 */
 
 /* 公共样式 */
 .VIP  p{
 	color: #666;
-    font-size: 14px;
-    
+    font-size: 14px; 
     padding: 5px;
 }
 .VIP  h3{
-	text-align: left;
-    padding: 30px 0 3px 0;
+	text-align: center;
+    padding: 40px 0 3px 0;
     color: #333;
     font-size: 20px; 
 }
+/* 表格公共部分*/
+.VIP  table{
+    margin: 30px 35px;
+    border: 1px solid  #d8e5ed;
+    background-color: #f0f9ff; 
+}
+.VIP table td{
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    border: 1px #d8e5ed solid;
+}
 
-/* 第一个盒子 */
+
+/* 第一个盒子---VIP投资人计划介绍 */
 .VIP > .box1{
 	border-bottom: 1px solid #ccc;
 	height: 209px;
+}
+.VIP > .box1 h3{
+    text-align: left;
 }
 .VIP > .box1 span{
   margin-right: 20px;
@@ -34,10 +49,8 @@
     width: 210px;
 }
 
-
-/* 第二个盒子 */
+/* 第二个盒子---VIP会员的优势 */
 .VIP > .box2 h3{
-	text-align: center;
 	padding-bottom: 25px;
 }
 .VIP > .box2 .VIP-2{
@@ -75,21 +88,59 @@
     text-align: left;
 }
 
-/* 第三个盒子 */
-.VIP > .box3 h3{
-	text-align: center;
-}
-.VIP > .box3 table{
-	margin-left: 35px;
-}
+/* 第三个盒子----成长体系表 */
+
 .VIP > .box3 table th{
     height: 45px;
     line-height: 45px;
     text-align: center;
     color: #333;
     border: 1px #d8e5ed solid;
-    width: 100px;
+    width: 93px;
 }
-/* 第四个盒子 */
+.VIP > .box3 table th:first-child{
+    width: 150px;
+}
+.VIP > .box3 p{
+    line-height: 28px;
+    color: #666;
+    padding: 0 0 0 35px;
+}
+.VIP > .box3 p i{
+    color: #f00;
+}
 
-
+/* 第四个盒子 ----会员权益介绍*/
+.VIP > .box4 table{
+    margin-bottom: 80px;
+}
+.VIP > .box4 table td{
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #333;
+    border: 1px #d8e5ed solid;
+    width: 93px;
+}
+.VIP > .box4 table td i{
+    font-size: 20px;
+}
+.VIP > .box4{
+    border-bottom: 1px solid #ccc;
+}
+/* 第五个盒子----如何获得VIP投资人资格？ */
+ .VIP > .box5{
+    height: 209px;
+}
+.VIP > .box5 h3{
+    text-align: left;
+}
+.VIP > .box5 span{
+  margin-right: 20px;
+  line-height: 28px;
+}
+ .VIP > .box5 img{
+    float: left;
+    padding: 40px ;
+    width: 210px;
+} 
