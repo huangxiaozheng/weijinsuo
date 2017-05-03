@@ -2,7 +2,7 @@
 * @Author: tangwm
 * @Date:   2017-04-22 15:54:09
 * @Last Modified by:   huangxz
-* @Last Modified time: 2017-04-27 17:02:21
+* @Last Modified time: 2017-05-03 13:05:19
 */
 
 
@@ -39,20 +39,6 @@
 #guide > .container >.right dd{
   font-size: 16px;    
 }
-#guide > .container >.right a{
-  line-height: 35px;
-  background: #e43737;
-  color: #fff;
-  border-radius: 3px;
-  border: none;
-  height: 35px;
-  display: inline-block;
-  width: 160px;
-  font-size: 16px;
-  text-align: center;
-  margin: 10px auto;
-}
-
 
 /* 左部分菜单 */
 #guide > .container >.left{

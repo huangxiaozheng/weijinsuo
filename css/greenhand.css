@@ -2,7 +2,7 @@
 * @Author: huangxz
 * @Date:   2017-04-26 21:45:17
 * @Last Modified by:   huangxz
-* @Last Modified time: 2017-04-27 17:20:16
+* @Last Modified time: 2017-05-03 13:04:45
 */
 
 #guide > .container >.right > .greenhand >.box1 img{
@@ -124,15 +124,3 @@
 
 
 
-/* 清除浮动 */
- .clearfix:after{
-    content: "";
-    display: block;
-    clear: both;
-    height: 0;
-    line-height: 0;
-    visibility: hidden;
- }
- .clearfix{
-  zoom: 1; 
- }

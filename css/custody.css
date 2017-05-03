@@ -2,8 +2,51 @@
 * @Author: huangxz
 * @Date:   2017-05-03 11:14:19
 * @Last Modified by:   huangxz
-* @Last Modified time: 2017-05-03 12:48:21
+* @Last Modified time: 2017-05-03 22:33:14
 */
 
+.box1{
+	margin: 30px;
+}
 
+.box1 h3{
+    font-size: 18px;
+    color: #666;
+    font-weight: normal;
+    width: 100%;
+    padding-bottom: 8px;
+    border-bottom: 1px #ccc solid;
+}
+.box1 p{
+	color: #666;
+    padding: 10px 0 40px 0;
+}
 
+ p .active{
+	color: #dd2c37;
+    border-bottom: 1px #dd2c37 solid;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.icon-Computer-account:before{
+  content: "\e98f";
+}
+.box1 dl dt{
+    background: #eee;
+    float: left;
+    margin-bottom: 10px;
+    color: #586a80;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+@font-face {
+	font-family:'MiFie-Website-Font';
+	src:url('../resource/fonts/MiFie-Website-Font.eot');
+	src:url('../resource/fonts/MiFie-Website-Font.eot') format('embedded-opentype'),
+	url('../resource/fonts/MiFie-Website-Font.ttf') format('truetype'),
+	url('../resource/fonts/MiFie-Website-Font.woff') format('woff'),
+	url('https://www.weijinsuo.com/resource/fonts/MiFie-Website-Font.svg') format('svg');
+}
