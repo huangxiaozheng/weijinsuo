@@ -1,8 +1,8 @@
 /*
  * @Author: iceStone
  * @Date:   2015-12-05 21:48:05
- * @Last Modified by:   tangwm
- * @Last Modified time: 2017-04-14 14:50:54
+ * @Last Modified by:   huangxz
+ * @Last Modified time: 2017-05-03 11:00:21
  */
 
 'use strict';
@@ -82,6 +82,5 @@ $(function() {
 
   });
 
- 
 });
 
