@@ -1,0 +1,28 @@
+
+
+
+.right dl{
+    margin: 30px;
+}
+
+.right dt{
+    font-size: 18px;
+    padding: 5px 0;
+    color: #122b40;
+}
+.right  a{
+    color: inherit;
+    text-decoration: none;
+    font-weight: normal;
+}
+.right  i{
+    color: #6d6e70;
+    font-size: 12px;
+}
+.right dd{
+    line-height: 30px;
+    color: #6f6f6f
+}
+.right dd a{
+    color: #c2502e;
+}
