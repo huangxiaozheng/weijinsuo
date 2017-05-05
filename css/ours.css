@@ -1,0 +1,30 @@
+
+
+
+.right  .title{
+    margin: 30px;
+
+}
+.right  .title  span {
+
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 16px;
+    border-right: 1px solid #e3e3e3;
+}
+.right  .title  span:last-child{
+    border-right:none;
+}
+.right  .title  .active{
+    color: #dd2c37;
+    border-bottom: 1px #dd2c37 solid;
+}
+.right  .title span:hover{
+    color: #dd2c37;
+    border-bottom: 1px #dd2c37 solid;
+}
+.right .ours2{
+    padding: 60px 0 15px 0;
+}
