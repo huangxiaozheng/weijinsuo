@@ -6,10 +6,11 @@
 */
 
 /* 公共样式 */
-#safe img{
+#safe  img{
     width:100%;
 }
-#safe i{
+/*文字公共样式*/
+#safe > .safe-middle  i{
     color: #fff;
     font-style: italic;
     display: inline-block;
@@ -22,61 +23,79 @@
     text-align: center;
     vertical-align: top;
 }
-#safe dt span{
+#safe > .safe-middle dt span{
     color: #349fe7;
     font-size: 18px;
 }
-#safe dt{
-    padding-bottom: 15px;
+#safe > .safe-middle dt{
+    padding:16px 0 35px 0;
 }
-#safe dt b{
+#safe > .safe-middle dt b{
     color: #333;
     font-size: 16px;
 }
-#safe dd{
+#safe > .safe-middle dd{
     color: #666;
     line-height: 28px;
     font-size: 14px;
 }
-#safe .stress{
+#safe > .safe-middle .stress{
     color: #f34f54;
 }
+/*奇数盒子公共样式*/
+#safe > .safe-middle div:nth-child(odd){
+    padding: 50px 0;
+    height: 300px;
+}
+/*偶数盒子公共样式*/
+#safe > .safe-middle div:nth-child(even){
+    background: #fafafa;
+    /*height: 300px;*/
+}
+#safe > .safe-middle div:nth-child(even) img{
+    float:left;
+    height: 260px;
+    width:260px;
+    margin-top: -30px;
+    padding: 10px;
+}
+#safe > .safe-middle div:nth-child(even) dl{
+    float:right;
 
-
-
-
-
-
-
-
-
-
-
-
+    position: relative;
+    left: -115px;
+}
 
 
 
 
 /* box1 */
-#safe > .box1{
-    padding: 50px 0;
-    height: 300px;
-}
-#safe > .box1 dl{
+#safe > .safe-middle  .box1 dl{
     background: url(../img/safe2.jpg) no-repeat right;
+    height: 240px;
+    position: relative;
+    top: -64px;
+}
+/* box3 */
+#safe >  .safe-middle .box3 dl{
+    background: url(../img/safe4.jpg) no-repeat right;
+    height: 240px;
+    position: relative;
+    top: -64px;
+}
+/* box5 */
+#safe >  .safe-middle .box5 dl{
+    background: url(../img/safe6.jpg) no-repeat right;
+    height: 240px;
+    position: relative;
+    top: -64px;
+}
+/* box7 */
+#safe > .safe-middle  .box7 dl{
+    background: url(../img/safe8.jpg) no-repeat right;
+    height: 240px;
+    position: relative;
+    top: -64px;
 }
 
-/* box2 */
-#safe > .box2{
-    background: #fafafa;
-}
-#safe > .box2 img{
-    float:left;
-    height: 300px;
-    width:300px;
-    padding: 20px 30px 20px 10px;
-}
-#safe > .box2 dl{
-    float:right;
-    padding: 70px 0 0 20px;
-}
+
